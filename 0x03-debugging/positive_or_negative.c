@@ -1,3 +1,10 @@
+#include <stdio.h>
+/**
+   * positive_or_negative - checkes the integer positive or negative
+    * @n: The integer to check
+     *
+      * Return: result
+        */
 void positive_or_negative(int n){
     if (!n)
     {
