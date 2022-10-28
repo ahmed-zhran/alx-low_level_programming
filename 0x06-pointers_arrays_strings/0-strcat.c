@@ -3,6 +3,7 @@
 *_strcat - concatnate two strings
 *@dest: 1st string
 *@src: 2nd string
+*Return: value
 */
 char *_strcat(char *dest, char *src)
 {
