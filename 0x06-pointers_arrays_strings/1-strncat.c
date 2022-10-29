@@ -6,7 +6,7 @@
 *@n:max bytes
 *Return: value
 */
-char *_strncat(char *dest, char *src)
+char *_strncat(char *dest, char *src, int n)
 {
 	int len1 = 0, len2 = 0;
 
