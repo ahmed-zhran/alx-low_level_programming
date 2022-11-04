@@ -6,11 +6,12 @@
 */
 int ans = 2;
 
-int _sqrt_recursion(int n, int ans)
+int _sqrt_recursion(int n)
 {
 	if (!n || n == 1)
 		return n;
 	else if (!(n % ans) && ans * ans = n)
 		return ans;
-	return (_sqrt_recursion(n, x + 1));
+	ans++;
+	return (_sqrt_recursion(n));
 }
