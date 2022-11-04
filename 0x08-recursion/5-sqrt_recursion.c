@@ -4,7 +4,9 @@
 *@n: var
 *Return: value
 */
-int _sqrt_recursion(int n, int ans = 2)
+int ans = 2;
+
+int _sqrt_recursion(int n, int ans)
 {
 	if (!n || n == 1)
 		return n;
