@@ -11,6 +11,8 @@ int _sqrt(int n, int ans)
 		return (-1);
 	if (!n || n == 1)
 		return (n);
+	if (ans > n / 2)
+		return (-1);
 	if (!(n % ans) && ans * ans == n)
 		return (ans);
 	ans++;
