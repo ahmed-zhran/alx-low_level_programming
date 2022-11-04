@@ -5,7 +5,7 @@
 *@ans: var
 *Return: value
 */
-int _sqrt(int n,int ans)
+int _sqrt(int n, int ans)
 {
 	if (n < 0)
 		return (-1);
