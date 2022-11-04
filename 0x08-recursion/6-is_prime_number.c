@@ -10,10 +10,10 @@ int _prime(int n, int k)
 	if (n == 2)
 		return (1);
 	if (n < 2 || !(n % 2))
-		return (0); 
+		return (0);
 	if (n % k == 0)
 		return (0);
-	if (k * k <= n) 
+	if (k * k <= n)
 		return (_prime(n, k + 1));
 	return (1);
 }
