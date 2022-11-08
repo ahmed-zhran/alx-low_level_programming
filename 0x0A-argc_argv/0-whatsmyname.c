@@ -5,10 +5,10 @@
 #include <stdio.h>
 
 /**
- * main - program that prints its name, followed by a new line.
- * @argc: arg
- * @argv: arg
- * Return: Always 0.
+ *main - program that prints its name, followed by a new line.
+ *@argc: arg
+ *@argv: arg
+ *Return: Always 0.
  */
 
 int main(int agrc, char *argv[])
