@@ -22,7 +22,7 @@ int main(int argc, char *argv[])
 		printf("0\n");
 	}
 
-	while (argc > 1)
+	while (argc > 1 && i < argc)
 	{
 		for (j = 0; *(argv[i] + j) != '\0'; j++)
 		{
