@@ -1,7 +1,3 @@
-/*
- * File: 0-whatsmyname.c
- * Auth: Zhran
- */
 #include <stdio.h>
 
 /**
