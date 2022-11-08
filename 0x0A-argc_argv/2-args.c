@@ -1,4 +1,4 @@
-i/*
+/*
  * File: 2-args.c
  * Auth: Zhran
  */
@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 
 	for (; i < argc; i++)
 	{
-		printf("%S\n", argv[i]);
+		printf("%s\n", argv[i]);
 	}
 	return (0);
 }
