@@ -29,35 +29,15 @@ int main(int argc, char *argv[])
 		return (0);
 	}
 	if (no >= 25)
-	{
-		tmp = no / 25;
-		sum += tmp;
-		no -= (tmp * 25);
-	}
+		tmp = no / 25, sum += tmp, no -= (tmp * 25);
 	if (no >= 10)
-	{
-		tmp = no / 10;
-		sum += tmp;
-		no -= (tmp * 10);
-	}
+		tmp = no / 10, sum += tmp, no -= (tmp * 10);
 	if (no >= 5)
-	{
-		tmp = no / 5;
-		sum += tmp;
-		no -= (tmp * 5);
-	}
+		tmp = no / 5, sum += tmp, no -= (tmp * 5);
 	if (no >= 2)
-	{
-		tmp = no / 2;
-		sum += tmp;
-		no -= (tmp * 2);
-    	}
+		tmp = no / 2, sum += tmp, no -= (tmp * 2);
 	if (no >= 1)
-	{
-		tmp = no / 1;
-		sum += tmp;
-		no -= (tmp * 1);
-	}
+		tmp = no / 1, sum += tmp, no -= (tmp * 1);
 	printf(sum);
 	return (0);
 }
