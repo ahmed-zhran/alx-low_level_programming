@@ -14,8 +14,6 @@
 
 int main(int argc, char *argv[])
 {
-	if (!argc)
-		return (0);
-	prinf("%s\n", argv[argc - argc]);
+	printf("%s\n", argv[argc - argc]);
 	return (0);
 }
