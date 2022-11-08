@@ -38,6 +38,6 @@ int main(int argc, char *argv[])
 		tmp = no / 2, sum += tmp, no -= (tmp * 2);
 	if (no >= 1)
 		tmp = no / 1, sum += tmp, no -= (tmp * 1);
-	printf(sum);
+	printf("%d\n", sum);
 	return (0);
 }
