@@ -14,11 +14,11 @@ size_t print_list(list_t *first)
 	while (1)
 	{
 		n++;
-		if (cur -> str == NULL)
+		if (cur->str == NULL)
 			printf("[0] (nil)\n");
 		else
-			printf("[%d] %s\n", cur -> len, cur -> str);
-		if (cur -> next == NULL)
+			printf("[%d] %s\n", cur->len, cur->str);
+		if (cur->next == NULL)
 			break;
 		cur = cur->next;
 	}
