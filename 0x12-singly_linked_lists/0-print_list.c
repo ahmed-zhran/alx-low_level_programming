@@ -8,7 +8,7 @@
 
 size_t print_list(list_t *first)
 {
-	int n = 0;
+	size_t n = 0;
 	list_t *cur = first;
 
 	while (1)
