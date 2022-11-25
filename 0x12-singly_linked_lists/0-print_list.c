@@ -6,10 +6,10 @@
  * Return: value
  */
 
-size_t print_list(list_t *first)
+size_t print_list(list_t *h)
 {
 	size_t n = 0;
-	list_t *cur = first;
+	list_t *cur = h;
 
 	while (1)
 	{
