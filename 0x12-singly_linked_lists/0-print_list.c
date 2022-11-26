@@ -5,18 +5,19 @@
  * Return: number of elements in the list.
  */
 
-size_t print_list(const list_t *first)
+size_t print_list(const list_t *h)
 {
-    size_t n = 0;
-    while (first != NULL)
-    {
-        n++;
-        if (first->str == NULL)
-            printf("[%d] %s\n", 0, "(nil)");
-        else
-            printf("[%d] %s\n", first->len, first->str);
-        cur = cur->next;
-    }
+	size_t n = 0;
 
-    return (n);
+	while (first != NULL)
+    	{
+		n++;
+		if (h->str == NULL)
+			printf("[%d] %s\n", 0, "(nil)");
+		else
+			printf("[%d] %s\n", h->len, h->str);
+		h = h->next;
+	}
+
+	return (n);
 }
