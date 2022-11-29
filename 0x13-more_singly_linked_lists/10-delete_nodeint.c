@@ -3,8 +3,7 @@
 /**
  * delete_nodeint_at_index - deletes the node at index index of a listint_t.
  * @head: pointer
- * @idx: var
- * @n: var
+ * @index: var
  * Return: value
  */
 
@@ -29,6 +28,5 @@ int delete_nodeint_at_index(listint_t **head, unsigned int index)
 	after = (tmp->next)->next;
 	free(tmp->next);
 	tmp->next = after;
-	
 	return (1);
 }
