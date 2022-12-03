@@ -8,13 +8,13 @@
 
 unsigned int binary_to_uint(const char *b)
 {
-	unsigned int ans = 0, i = 2, len = 0;
+	unsigned int ans = 0, i = 1, len = 0;
 
 	if (!b)
 		return (0);
 	for (; *(b + len) != '\0'; len++)
 		;
-	for (; *(b + --len) != '\0'; i *= 2)
+	for (len--; len >= 0; len--, i *= 2)
 	{
 		if (*(b + len) == '1')
 			ans += i;
